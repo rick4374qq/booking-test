@@ -9,14 +9,17 @@ const App = () => {
     console.log("name", e.target.name);
     console.log("value", e.target.value);
   };
+
   const handleBlur = (e) => {
     console.log("CustomInputNumber handleBlur", e);
     console.log("name", e.target.name);
     console.log("value", e.target.value);
   };
+
   const handleChangeRoom = (result) => {
     console.log(result);
   };
+
   return (
     <div>
       CustomInputNumber
